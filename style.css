@@ -468,3 +468,180 @@ footer {
     font-family: Georgia, serif;
     font-size: 16px;
 }
+.hero-image {
+    margin-top: 40px;
+}
+
+.hero-image img {
+    width: 320px;
+    height: 320px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 8px solid white;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/* ------------------------------
+   FLOATING WHATSAPP BUTTON
+------------------------------ */
+
+.whatsapp-float {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    background-color: #25d366;
+    color: white;
+
+    padding: 14px 20px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    z-index: 1500;
+
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-3px);
+}
+/* ------------------------------
+   PRICING
+------------------------------ */
+
+#pricing {
+    background-color: #fffaf3;
+}
+
+.pricing-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 45px;
+
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background-color: white;
+
+    width: 30%;
+    min-width: 260px;
+
+    padding: 35px 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.price-card:hover {
+    transform: translateY(-8px);
+}
+
+.price-card h3 {
+    font-size: 24px;
+
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #6b7d3a;
+
+    margin-bottom: 15px;
+}
+
+.price-card .button {
+    margin-top: 20px;
+}
+#testimonials {
+    background-color: #efe6d5;
+}
+
+.testimonials-container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 45px;
+
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: white;
+
+    width: 30%;
+    min-width: 260px;
+
+    padding: 30px 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stars {
+    font-size: 22px;
+
+    margin-bottom: 15px;
+}
+
+.testimonial p {
+    font-style: italic;
+
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 17px;
+}
+/* ------------------------------
+   SERVICE AREA
+------------------------------ */
+
+#service-area {
+    background-color: #fffaf3;
+}
+
+.locations {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+.locations span {
+    background-color: #efe6d5;
+
+    padding: 10px 20px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+}
